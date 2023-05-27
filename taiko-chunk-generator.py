@@ -357,5 +357,5 @@ def main():
     zipdir('temp', f'{title}.osz')
     remove_tree('temp')
 
-if __name__ == 'main':
+if __name__ == '__main__':
     main()
